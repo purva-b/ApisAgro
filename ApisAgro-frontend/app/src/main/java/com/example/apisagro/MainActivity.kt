@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+//noinspection UsingMaterialAndMaterial3Libraries
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Agriculture
@@ -47,6 +48,13 @@ class MainActivity : ComponentActivity() {
             Text("Sustainable Farming Solutions", fontSize = 16.sp, modifier = Modifier.padding(bottom = 24.dp))
 
             DashboardCard(
+                title = "Crop Rotation Planner",
+                description = "Generate scientifically validated crop rotation plans...",
+                icon = Icons.Filled.Agriculture,
+                color = Color(0xFF4CAF50)
+            ) { startActivity(Intent(this@MainActivity, CropRotationActivity::class.java)) }
+
+            DashboardCard(
                 title = "Bee Sound Synthesizer",
                 description = "Play AI-generated, bee-friendly frequencies...",
                 icon = Icons.Filled.GraphicEq,
@@ -59,6 +67,13 @@ class MainActivity : ComponentActivity() {
                 icon = Icons.Filled.Map,
                 color = Color(0xFF42A5F5)
             ) { startActivity(Intent(this@MainActivity, BeeTrafficActivity::class.java)) }
+
+            DashboardCard(
+                title = "Virtual Assistant",
+                description = "Get real-time guidance and answers to your farming queries...",
+                icon = Icons.Filled.SmartToy,
+                color = Color(0xFF7E57C2)
+            ) { startActivity(Intent(this@MainActivity, VirtualAssistantActivity::class.java)) }
         }
     }
 
