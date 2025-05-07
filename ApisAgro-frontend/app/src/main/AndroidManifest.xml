@@ -21,7 +21,7 @@
         <!-- Add Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAAnekbDhsHddTcK3zG3-YChjSQCcNvfoE" />
+            android:value="Your_Maps_api_key" />
 
         <!-- Make sure your BeeTrafficActivity is registered -->
         <activity
