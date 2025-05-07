@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ApisAgro" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
+
+<!--<resources>-->
+<!--<style name="Theme.A0Project" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--    &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--</style>-->
+<!--</resources>-->
+
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--<style name="Theme.A0Project" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--    &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--    <item name="colorPrimary">@color/purple_500</item>-->
+<!--    <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--    <item name="colorOnPrimary">@color/white</item>-->
+<!--    <item name="colorSecondary">@color/teal_200</item>-->
+<!--    <item name="android:statusBarColor" tools:targetApi="l" >@android:color/transparent</item>-->
+<!--</style>-->
+
+<!--</resources>-->
